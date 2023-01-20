@@ -1,0 +1,27 @@
+{
+  "name": "pract-task",
+  "version": "1.0.0",
+  "description": "Practical task",
+  "license": "UNLICENSED",
+  "author": "Vlastyslav Vladko <Vlastyslav.V@gmail.com> (https://github.com/Vlastyslav/Pract_Task.git)",
+  "keywords": [
+    "practice",
+    "task",
+    "package"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlastyslav/Pract_Task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vlastyslav/Pract_Task/issues"
+  },
+  "homepage": "https://github.com/Vlastyslav/Pract_Task#readme",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}

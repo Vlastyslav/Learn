@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Doctors page test suite" timestamp="2023-01-19T15:44:30" time="0.038" tests="2" failures="1" errors="1" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Doctors page test suite"/>
+      <property name="capabilities" value="chrome.109_0_5414_75.windows"/>
+      <property name="file" value="file:///V:/git/Fin_task/test/specs/doc.test.js"/>
+    </properties>
+    <testcase classname="chrome.109_0_5414_75.windows.Doctors_page_test_suite" name="should open page" time="0">
+      <skipped/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/0c0f73f61a4791f2a7bca1ad7f23876e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.109_0_5414_75.windows.Doctors_page_test_suite" name="before each hook for Doctors page test suite" time="0.008">
+      <failure/>
+      <error message="AddDoctorModal is not a constructor"/>
+      <system-err><![CDATA[
+TypeError: AddDoctorModal is not a constructor
+    at new DoctorsPage (V:\git\Fin_task\test\pageobjects\pages\doctors.page.js:12:31)
+    at page (V:\git\Fin_task\test\pageobjects\pages\factory.js:12:18)
+    at Context.<anonymous> (V:\git\Fin_task\test\specs\doc.test.js:6:11)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

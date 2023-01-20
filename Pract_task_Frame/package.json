@@ -1,0 +1,17 @@
+{
+  "name": "my-new-project",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^7.24.0",
+    "@wdio/junit-reporter": "^7.24.1",
+    "@wdio/local-runner": "^7.24.0",
+    "@wdio/mocha-framework": "^7.24.0",
+    "@wdio/spec-reporter": "^7.24.0",
+    "chromedriver": "^109.0.0",
+    "wdio-chromedriver-service": "^8.0.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
